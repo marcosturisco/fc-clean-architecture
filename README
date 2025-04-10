@@ -1,2 +1,3 @@
 $ npm i express @types/express dotenv
 $ npm i -D @types/supertest
+$ npm i -S yup
