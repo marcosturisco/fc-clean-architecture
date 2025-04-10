@@ -23,7 +23,7 @@ describe("Test list products use case", () => {
         await sequelize.close();
     });
 
-    it("should update products", async () => {
+    it("should update a product", async () => {
         const productRepository = new ProductRepository();
         const useCase = new UpdateProductUseCase(productRepository);
 

@@ -23,7 +23,7 @@ describe("Test list products use case", () => {
         await sequelize.close();
     });
 
-    it("should list products", async () => {
+    it("should list all products", async () => {
         const productRepository = new ProductRepository();
         const useCase = new ListProductUseCase(productRepository);
 
